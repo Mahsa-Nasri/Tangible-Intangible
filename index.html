@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+        
+        nav {
+            background-color: #1a1a1a;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+        
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #888888;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #ffffff;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            margin: 2rem 0 1rem;
+            color: #ffffff;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            color: #cccccc;
+        }
+        
+        .section {
+            margin-bottom: 3rem;
+        }
+        
+        a {
+            color: #888888;
+        }
+        
+        a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="home" class="section">
+            <h1>Welcome to My Website</h1>
+            <p>This is a simple black-themed website template.</p>
+        </section>
+        
+        <section id="about" class="section">
+            <h2>About</h2>
+            <p>Add your information here. Customize this template to make it your own.</p>
+        </section>
+        
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <p>Showcase your work and projects here.</p>
+        </section>
+        
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Get in touch: <a href="mailto:your@email.com">your@email.com</a></p>
+        </section>
+    </div>
+</body>
+</html>
