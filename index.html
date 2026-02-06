@@ -12,10 +12,11 @@
         }
 
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Helvetica', 'Arial', sans-serif;
             background: white;
             cursor: none;
             overflow-x: hidden;
+            color: #000;
         }
 
         /* Navigation */
@@ -37,7 +38,7 @@
         .studio-name {
             font-size: 1.8em;
             font-weight: bold;
-            color: #333;
+            color: #000;
             cursor: pointer;
         }
 
@@ -48,7 +49,7 @@
 
         .nav-tab {
             font-size: 1.1em;
-            color: #666;
+            color: #000;
             text-decoration: none;
             transition: color 0.3s;
             cursor: pointer;
@@ -56,11 +57,11 @@
         }
 
         .nav-tab:hover {
-            color: #333;
+            color: #000;
         }
 
         .nav-tab.active {
-            color: #333;
+            color: #000;
             font-weight: bold;
         }
 
@@ -101,27 +102,27 @@
         h1 {
             font-size: 4em;
             margin-bottom: 30px;
-            color: #333;
+            color: #000;
             line-height: 1.2;
         }
 
         h2 {
             font-size: 2.8em;
             margin-bottom: 30px;
-            color: #444;
+            color: #000;
         }
 
         h3 {
             font-size: 2em;
             margin-bottom: 20px;
-            color: #555;
+            color: #000;
             margin-top: 40px;
         }
 
         p {
             font-size: 1.3em;
             line-height: 1.8;
-            color: #666;
+            color: #000;
             margin-bottom: 25px;
         }
 
@@ -188,29 +189,29 @@
 
         .schedule-time {
             font-weight: bold;
-            color: #667eea;
+            color: #000;
             font-size: 1.2em;
             margin-bottom: 8px;
         }
 
         .schedule-title {
             font-size: 1.3em;
-            color: #333;
+            color: #000;
             margin-bottom: 5px;
         }
 
         .schedule-desc {
-            color: #777;
+            color: #000;
             font-size: 1.1em;
             line-height: 1.6;
         }
 
         .organizer-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 40px;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 30px;
             margin-top: 50px;
-            max-width: 800px;
+            max-width: 1000px;
             margin-left: auto;
             margin-right: auto;
         }
@@ -223,21 +224,35 @@
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
         }
 
+        .organizer-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3em;
+            color: white;
+            font-weight: bold;
+        }
+
         .organizer-name {
             font-size: 1.4em;
-            color: #333;
+            color: #000;
             font-weight: bold;
             margin-bottom: 10px;
         }
 
         .organizer-role {
-            color: #667eea;
+            color: #000;
             font-size: 1.1em;
             margin-bottom: 10px;
         }
 
         .organizer-bio {
-            color: #666;
+            color: #000;
             font-size: 1em;
             line-height: 1.6;
         }
@@ -248,7 +263,7 @@
 
     <!-- Navigation -->
     <nav>
-        <div class="studio-name">Creative Studio Workshop</div>
+        <div class="studio-name">Tangible Intangibles</div>
         <div class="nav-tabs">
             <a href="#about" class="nav-tab active">About</a>
             <a href="#workshop" class="nav-tab">Workshop</a>
@@ -259,10 +274,10 @@
     <!-- Hero Section -->
     <section id="about" class="section hero">
         <div class="content">
-            <h1>Join Our Creative Workshop</h1>
-            <p style="font-size: 1.5em; color: #555; margin-bottom: 20px;">Unlock Your Creative Potential</p>
-            <p>We're excited to invite passionate creators, designers, and innovators to participate in our intensive hands-on workshop. Whether you're a beginner or experienced artist, this workshop will help you develop new skills and expand your creative horizons.</p>
-            <p>Limited spots available! Join our community of creative minds and transform your ideas into reality.</p>
+            <h1>Tangible Intangibles</h1>
+            <p style="font-size: 1.5em; color: #000; margin-bottom: 20px;">Exploring Embodied Emotion in Mixed Reality for Art Therapy</p>
+            <p>Join us for a full-day, hands-on workshop that combines biometric emotion journaling, traditional art therapy, and comparative embodied reflection to explore how intangible emotional states can be materialized through digital and analog interfaces.</p>
+            <p>This immersive experience at TEI 2026 in Chicago combines clay sculpting, mixed reality, and biosignal visualization to investigate what each modality affords for emotional expression and awareness.</p>
             <a href="#REGISTRATION_LINK" class="btn-register">Register Now</a>
         </div>
     </section>
@@ -270,25 +285,30 @@
     <!-- About the Studio -->
     <section class="section about">
         <div class="content">
-            <h2>About Our Studio</h2>
-            <p>We are a creative studio dedicated to fostering innovation and artistic expression. With over 10 years of experience in the creative industry, we've helped hundreds of artists and designers discover their unique voice.</p>
-            <p>Our mission is to create an inclusive, inspiring environment where creativity flourishes. We believe in hands-on learning, collaborative projects, and pushing the boundaries of what's possible.</p>
-            <p>Our state-of-the-art facilities include modern equipment, dedicated workspace, and access to industry-leading tools and software.</p>
+            <h2>About the Workshop</h2>
+            <p><strong>What is tangible?</strong> We often think of objects that can be touched, held, or physically manipulated. But what about the tightness in your chest during anxiety? The weight of grief on your shoulders? The racing heart of excitement? These sensations are intensely felt—they have texture, pressure, temperature, rhythm—yet they are often considered intangible.</p>
+            <p>This studio explores how to make the intangible tangible, a question at the heart of art therapy, somatic psychology, and embodied cognition. When your breath rhythm becomes color saturation, when your eye movements choreograph an avatar, when your heartbeat determines brightness—emotions leave tangible traces that can be witnessed, explored, and archived.</p>
+            <p><strong>Who Should Join:</strong> HCI researchers, interaction designers, art therapists, clinicians, XR developers, artists exploring embodiment, biofeedback, or data-as-material. No prior technical expertise required—all materials and devices provided.</p>
+            <p><strong>Format:</strong> Full-day (8 hours) in-person workshop at TEI 2026, Chicago | Capacity: 10-15 participants</p>
         </div>
     </section>
 
     <!-- Workshop Information -->
     <section id="workshop" class="section workshop-info">
         <div class="content">
-            <h2>What We'll Do</h2>
-            <p>This immersive workshop combines theory and practice to give you a comprehensive creative experience:</p>
+            <h2>What You'll Experience</h2>
+            <p>This workshop balances traditional art therapy with cutting-edge mixed reality to investigate fundamental questions about embodied emotion:</p>
             
-            <h3>Workshop Activities</h3>
-            <p><strong>Creative Techniques:</strong> Learn fundamental and advanced techniques in design, illustration, and digital art.</p>
-            <p><strong>Hands-On Projects:</strong> Work on real-world projects that you can add to your portfolio.</p>
-            <p><strong>Collaborative Sessions:</strong> Team up with other participants to create amazing collaborative works.</p>
-            <p><strong>Expert Feedback:</strong> Receive personalized critiques and guidance from industry professionals.</p>
-            <p><strong>Networking:</strong> Connect with like-minded creatives and build lasting relationships.</p>
+            <h3>Traditional Art Therapy</h3>
+            <p><strong>Clay Sculpting & Manual Color:</strong> Engage with established somatic art therapy techniques. After a guided body scan, sculpt emotional states on articulated mannequin forms and create free-form 2D drawings. Through tactile manipulation and conscious color selection, externalize felt sensations into material form.</p>
+            
+            <h3>Mixed Reality Biometric Journaling</h3>
+            <p><strong>Movement + Biosignals:</strong> Experience an MR prototype where your body speaks first. Breath rhythm modulates color intensity, heart rate variability affects pulsing patterns, and eye movement dynamics influence motion quality. Your physiological signals become visual feedback, generating persistent 3D "emotional artifacts" that can be revisited over time.</p>
+            
+            <h3>Comparative Reflection & Co-Design</h3>
+            <p><strong>Collaborative Exploration:</strong> Through hands-on experimentation and group reflection, compare what digital vs. analog modalities afford for emotional expression. Prototype alternative mappings, propose hybrid workflows, and contribute to design principles for trauma-informed XR systems.</p>
+            
+            <p style="margin-top: 30px;"><strong>Key Questions We'll Explore:</strong> What can MR do that clay cannot? When does manual interpretation create deeper connection? How might biosensors enhance emotional awareness? What makes an emotional artifact meaningful?</p>
         </div>
     </section>
 
@@ -296,37 +316,55 @@
     <section class="section schedule">
         <div class="content">
             <h2>Workshop Schedule</h2>
-            <p>A carefully designed program to maximize your learning experience</p>
+            <p>A full-day journey through embodied emotion and biometric expression</p>
             
             <div class="schedule-list">
                 <div class="schedule-item">
-                    <div class="schedule-time">Day 1 - Morning (9:00 AM - 12:00 PM)</div>
-                    <div class="schedule-title">Introduction & Fundamentals</div>
-                    <div class="schedule-desc">Welcome session, ice breakers, and overview of creative fundamentals. Introduction to tools and techniques we'll be using throughout the workshop.</div>
+                    <div class="schedule-time">09:00 AM - 09:30 AM</div>
+                    <div class="schedule-title">Arrival & Somatic Grounding</div>
+                    <div class="schedule-desc">Guided body scan meditation introducing interoceptive awareness. Notice breath, heart, tension, and emotion in the body, establishing baseline somatic attention.</div>
                 </div>
                 
                 <div class="schedule-item">
-                    <div class="schedule-time">Day 1 - Afternoon (1:00 PM - 5:00 PM)</div>
-                    <div class="schedule-title">Hands-On Practice</div>
-                    <div class="schedule-desc">Begin your first project with guided instruction. Learn core techniques and start building your creative workflow.</div>
+                    <div class="schedule-time">09:30 AM - 10:00 AM</div>
+                    <div class="schedule-title">Theoretical Context</div>
+                    <div class="schedule-desc">Mini-presentations on somatic psychology, biometric interfaces as emotional mirrors, and digital phenotyping. Brief demo of the MR biometric journaling system.</div>
                 </div>
                 
                 <div class="schedule-item">
-                    <div class="schedule-time">Day 2 - Morning (9:00 AM - 12:00 PM)</div>
-                    <div class="schedule-title">Advanced Techniques</div>
-                    <div class="schedule-desc">Dive deeper into advanced methods and explore creative problem-solving strategies. Individual coaching sessions available.</div>
+                    <div class="schedule-time">10:00 AM - 11:00 AM</div>
+                    <div class="schedule-title">Experience Session: Clay & Manual Color</div>
+                    <div class="schedule-desc">Sculpt with physical clay on mannequin forms, selecting and applying colors guided by body-scan awareness. Complete free-form 2D art therapy with paper and pencil. Photographic record captured for comparison.</div>
                 </div>
                 
                 <div class="schedule-item">
-                    <div class="schedule-time">Day 2 - Afternoon (1:00 PM - 5:00 PM)</div>
-                    <div class="schedule-title">Collaborative Project</div>
-                    <div class="schedule-desc">Work in teams to create a collaborative piece. Apply everything you've learned in a supportive, creative environment.</div>
+                    <div class="schedule-time">11:00 AM - 11:15 AM</div>
+                    <div class="schedule-title">Break & Informal Reflection</div>
+                    <div class="schedule-desc">Coffee/tea break with discussion prompt: "What surprised you about seeing your emotion embodied?"</div>
                 </div>
                 
                 <div class="schedule-item">
-                    <div class="schedule-time">Day 3 - Full Day (9:00 AM - 4:00 PM)</div>
-                    <div class="schedule-title">Final Project & Showcase</div>
-                    <div class="schedule-desc">Complete your final project, receive feedback, and participate in our closing showcase where all participants present their work.</div>
+                    <div class="schedule-time">11:30 AM - 12:30 PM</div>
+                    <div class="schedule-title">Experience Session: MR Biometric Journaling</div>
+                    <div class="schedule-desc">In pairs (rotating), experience the full system: body scan meditation, MR avatar with joint color selection, free movement while biometrics modulate color/speed into 3D artifact generation. Non-participating members observe and take notes.</div>
+                </div>
+                
+                <div class="schedule-item">
+                    <div class="schedule-time">12:30 PM - 01:30 PM</div>
+                    <div class="schedule-title">Comparative Reflection & Prototyping</div>
+                    <div class="schedule-desc">Small groups discuss: What did digital vs. analog modalities afford? Where did you feel more connected to emotion? Sketch ideas for hybrid or alternative biometric emotion journaling systems.</div>
+                </div>
+                
+                <div class="schedule-item">
+                    <div class="schedule-time">01:30 PM - 02:30 PM</div>
+                    <div class="schedule-title">Lunch Break</div>
+                    <div class="schedule-desc">Informal discussions with participants and organizers.</div>
+                </div>
+                
+                <div class="schedule-item">
+                    <div class="schedule-time">02:30 PM - 04:00 PM</div>
+                    <div class="schedule-title">Gallery Walk & Closing Circle</div>
+                    <div class="schedule-desc">Display both MR artifacts (via tablets/phones showing AR models) and clay sculptures. Participants share one insight. Co-create a visual "emotion mapping" poster synthesizing the day's discoveries.</div>
                 </div>
             </div>
             
@@ -338,32 +376,49 @@
     <section id="organizers" class="section organizers">
         <div class="content">
             <h2>Meet the Organizers</h2>
-            <p>Learn from experienced professionals who are passionate about teaching</p>
+            <p>An interdisciplinary team bridging affective computing, therapeutic practice, and embodied design research</p>
             
             <div class="organizer-grid">
                 <div class="organizer-card">
-                    <div class="organizer-name">Jane Smith</div>
-                    <div class="organizer-role">Lead Instructor</div>
-                    <div class="organizer-bio">Award-winning designer with 15+ years of experience. Former creative director at major design agencies.</div>
+                    <div class="organizer-image">CH</div>
+                    <div class="organizer-name">Dr. Casper Harteveld</div>
+                    <div class="organizer-role">Lead Facilitator</div>
+                    <div class="organizer-bio">Professor and Associate Dean at Northeastern University. Research focuses on using games to study decision-making in complex systems. DARPA Young Faculty Award recipient and leader of Ghost Lab.</div>
                 </div>
                 
                 <div class="organizer-card">
-                    <div class="organizer-name">Michael Chen</div>
-                    <div class="organizer-role">Technical Director</div>
-                    <div class="organizer-bio">Expert in digital art and creative technology. Published author and frequent conference speaker.</div>
+                    <div class="organizer-image">MN</div>
+                    <div class="organizer-name">Mahsa Nasri</div>
+                    <div class="organizer-role">Affective Designer</div>
+                    <div class="organizer-bio">Ph.D. student at Ghost Lab specializing in HCI and immersive technologies. Integrates VR, eye tracking, and machine learning to study user attention and affective engagement.</div>
                 </div>
                 
                 <div class="organizer-card">
-                    <div class="organizer-name">Sarah Johnson</div>
-                    <div class="organizer-role">Workshop Coordinator</div>
-                    <div class="organizer-bio">Passionate educator and community builder. Specializes in creating inclusive creative spaces.</div>
+                    <div class="organizer-image">MJ</div>
+                    <div class="organizer-name">Mahnoosh Jahanian</div>
+                    <div class="organizer-role">Creative Technologist</div>
+                    <div class="organizer-bio">Creative technologist bridging sensing and computation, exploring psychosomatic data to understand how feeling takes form. Practice spans computation, art therapy, and embodied sensing.</div>
+                </div>
+                
+                <div class="organizer-card">
+                    <div class="organizer-image">WW</div>
+                    <div class="organizer-name">Wei Wu</div>
+                    <div class="organizer-role">XR Researcher</div>
+                    <div class="organizer-bio">Ph.D. student at Ghost Lab exploring embodied cognition, multisensory learning, and affective interaction in XR. Integrates phenomenological theory with tangible design.</div>
+                </div>
+                
+                <div class="organizer-card">
+                    <div class="organizer-image">BX</div>
+                    <div class="organizer-name">Binyan Xu</div>
+                    <div class="organizer-role">Interaction Designer</div>
+                    <div class="organizer-bio">Ph.D. student at Playful Mind Lab focusing on technology-assisted rehabilitation and embodied motor learning, bridging clinical reasoning with XR-based therapy environments.</div>
                 </div>
             </div>
             
             <div style="margin-top: 60px;">
-                <h3>Ready to Join Us?</h3>
-                <p>Don't miss this opportunity to level up your creative skills!</p>
-                <a href="#REGISTRATION_LINK" class="btn-register">Register Now - Limited Spots!</a>
+                <h3>Ready to Explore Embodied Emotion?</h3>
+                <p>Join us at TEI 2026 in Chicago for this unique hands-on experience</p>
+                <a href="#REGISTRATION_LINK" class="btn-register">Register Now - Limited to 15 Participants!</a>
             </div>
         </div>
     </section>
